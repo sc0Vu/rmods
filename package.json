@@ -1,0 +1,50 @@
+{
+  "name": "rmods",
+  "version": "0.1.0",
+  "description": "Recursive remove modules on your computer, keep file system happy.",
+  "main": "index.js",
+  "repository": "sc0vu/rmods",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rmods": "./cli.js"
+  },
+  "type": "module",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "delete",
+    "del",
+    "remove",
+    "destroy",
+    "trash",
+    "unlink",
+    "clean",
+    "cleaning",
+    "cleanup",
+    "rm",
+    "rmrf",
+    "rimraf",
+    "rmdir",
+    "rmods",
+    "file",
+    "files",
+    "folder",
+    "directory",
+    "fs",
+    "filesystem",
+    "cross-platform"
+  ],
+  "author": {
+    "name": "Peter Lai",
+    "email": "alk03073135@gmail.com",
+    "url": "https://github.com/sc0vu"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "del": "^7.0.0",
+    "globby": "^13.1.4",
+    "meow": "^11.0.0"
+  }
+}
